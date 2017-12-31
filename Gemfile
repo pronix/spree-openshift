@@ -7,13 +7,16 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1.1'
+gem 'rails', '~> 5.1.4'
 # Support postgresql as a database for Active Record
 gem 'pg'
 # Support sqlite3 as a database for Active Record
 gem 'sqlite3'
 # Support redis as a key-value store for Action Cable
 gem 'redis'
+gem 'spree'
+gem 'spree_auth_devise'
+gem 'spree_gateway'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
