@@ -19,6 +19,7 @@ gem 'spree_auth_devise'
 gem 'spree_gateway'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
+gem 'nokogiri', '~> 1.7.2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -40,7 +41,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'listen', '>= 3.0.5', '< 3.2'
+#gem 'listen', '>= 3.0.5', '< 3.2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -60,3 +61,6 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Added at 2017-12-31 03:38:30 +0100 by dima:
+gem "mini_portile2", "~> 2.1"
